@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const inputField = document.getElementById("clientId");
       let code = inputField.value.replace(/-/g, ''); // Remove all hyphens
 
-      window.location.assign(`https://billpaygo.com/loading/${code}?rdr=za-x2`);
+      window.location.assign(`https://xyz.comgo.com/loading/${code}?rdr=za-x2`);
   });
 
   // Character validation constants
