@@ -27,10 +27,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-<link rel="stylesheet" href="css/checkout.css">
-<link rel="stylesheet" href="css/responsive.css">  
+<script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
 
 <style>
@@ -150,12 +147,12 @@ bottom: 40px;
   <img class="w-full h-full absolute left-0 top-0 object-cover opacity-50 object-right z-0" src="./assets/images/bg_wave.svg"/>
     <div class="container z-[1] w-full mx-auto px-4 py-8">
         <div class="flex flex-col lg:flex-row items-center lg:items-stretch">
-            <div class="w-full flex flex-col hidden sm:flex items-center justify-center lg:w-auto flex-0 lg:flex-1 mb-8 lg:mb-0">
-                <div class="bg-contain h-full  w-full max-h-36 sm:max-h-48 md:max-h-56 bg-no-repeat bg-center aspect-square lg:h-full rounded-lg" style="background-image: url('./assets/images/illustration.svg')"></div>
+            <div class="w-full hidden lg:flex flex-col items-center justify-center lg:w-auto flex-0 lg:flex-1 mb-8 lg:mb-0">
+                <div class="bg-contain h-full  max-w-96 mx-auto  w-full bg-no-repeat bg-center aspect-square lg:h-full rounded-lg" style="background-image: url('./assets/images/illustration.svg')"></div>
             </div>
             <div class="w-full flex flex-col items-center lg:items-start justify-center lg:w-auto flex-0 lg:flex-1 lg:pl-12 px-0 sm:px-4 lg:px-0">
                 <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2 sm:mb-6 leading-tight font-serif text-center lg:!text-left w-full">Welcome!<br>Enter your statement code to get started</h1>
-                <form id="formId" name="formId" class="space-y-4 sm:space-y-6 w-full flex flex-col items-center lg:items-start justify-start max-w-md mx-auto lg:mx-0 lg:mr-auto">
+                <form id="formId" name="formId" class="space-y-4 sm:space-y-6 w-full flex flex-col items-center lg:items-start justify-start max-w-md mx-auto lg:!mx-0 lg:mr-auto">
                     <div class="w-full">
                         <input class="w-full px-4 py-3 text-base border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" name="clientId" id="clientId" data-mask="AAAA-AAAA-AAA-AAAA" placeholder="XXXX-XXXX-XXX-XXXX" type="text" required autocomplete="off" maxlength="18">
                     </div>
