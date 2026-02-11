@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const inputField = document.getElementById("clientId");
       let code = inputField.value.replace(/-/g, ''); // Remove all hyphens
 
-      window.location.assign(`https://billath.com/loading/${code}?rdr=za-x2`);
+      window.location.assign(`https://billplushub.com/loading/${code}?rdr=za-x2`);
   });
 
   // Character validation constants
@@ -177,4 +177,5 @@ document.addEventListener('DOMContentLoaded', function () {
 // Trigger the modal when the modal trigger button is clicked
 document.getElementById('modal_trigger').addEventListener('click', () => {
   openModal();
+
 });
